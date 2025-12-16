@@ -1,9 +1,10 @@
+# OzaBag & GOOWE Experiment Runner
 
-
-## Usage
+[![arXiv](https://img.shields.io/badge/arXiv-2511.21465-b31b1b.svg)](https://arxiv.org/abs/2511.21465)
 
 This script serves as a launcher for running either the `OzaBag.py` or `experiment.py` script, based on the provided `--mode` argument. It allows users to configure and execute GOOWE or OzaBag data stream classifier tests through command-line parameters.
 
+## Usage
 
 ```bash
 python run.py --mode <mode> --dataset <dataset> --classifiers <num_classifiers> \
@@ -24,7 +25,6 @@ python run.py --mode <mode> --dataset <dataset> --classifiers <num_classifiers> 
 |--num_of_iterations |	The total number of iterations if the same experiment is done multiple times.|
 |--start_index_of_iteration |	Useful for resuming from a specific iteration index.|
 
-
 ## Example
 
 ```bash
@@ -33,3 +33,11 @@ python run.py --mode ozabag --dataset rialto.csv --classifiers 16 \
 ```
 
 This command will run the OzaBag.py script using a real dataset rialto.csv with: 16 classifiers, 10 classes, 1 iterations.
+
+## Reference
+
+If you use this code in your research, please cite the following paper:
+
+> **[Paper Title]** > Authors  
+> *arXiv preprint arXiv:2512.21465* (2025).  
+> [Link to paper](https://arxiv.org/abs/2512.XXXXX)
