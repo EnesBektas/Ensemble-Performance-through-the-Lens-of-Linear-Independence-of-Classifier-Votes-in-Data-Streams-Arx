@@ -38,6 +38,10 @@ This command will run the OzaBag.py script using a real dataset rialto.csv with:
 
 If you use this code in your research, please cite the following paper:
 
-> **Ensemble Performance Through the Lens of Linear Independence of Classifier Votes in Data Streams** > Enes Bektas, Fazli Can  
-> *arXiv preprint arXiv:2511.21465* (2025).  
-> [https://arxiv.org/abs/2511.21465](https://arxiv.org/abs/2511.21465)
+```bibtex
+@article{bektas2025ensemble,
+  title={Ensemble Performance Through the Lens of Linear Independence of Classifier Votes in Data Streams},
+  author={Bektas, Enes and Can, Fazli},
+  journal={arXiv preprint arXiv:2511.21465},
+  year={2025}
+}
